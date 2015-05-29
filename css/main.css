@@ -83,7 +83,7 @@ color : #fff;
 }
 
 .white {
-	color: #797979;
+	color: #fff;
 }
 
 .set-footer {
@@ -111,6 +111,10 @@ color : #fff;
 
 .font_13 {
 	font-size : 13px;
+}
+
+.padding10 {
+	padding : 10px;
 }
 
 .padding20 {
