@@ -41,7 +41,7 @@ h4 {
 .set-header {	 
     font-size: 14px;    
     background-color : #202024;
-    min-height: 80px;
+    min-height: 80px;    
 }
 
 .header-bar {
@@ -54,6 +54,7 @@ h4 {
 
 .navbar-default {
 	border: 0px none;
+	border-bottom : 1px solid #FF3B30;
 }
 
 .navbar-collapse > .navbar-nav a:hover,
