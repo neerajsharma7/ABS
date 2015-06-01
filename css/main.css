@@ -121,3 +121,27 @@ color : #fff;
 .padding20 {
 	padding : 20px;
 }
+
+.service_heading {
+	color : #FF3B30;
+}
+
+.service_image {	
+	padding:10px;
+	border: 1px solid #FF3B30;
+	border-radius : 10px;
+	float:left;
+	margin-right:10px;
+	overflow:hidden;
+}
+
+.image_size {
+	width:250px;
+	height:170px;
+}
+
+.service_line {
+	border: 1px solid #000;
+	
+}
+
