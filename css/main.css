@@ -142,7 +142,62 @@ color : #fff;
 
 .service_line {
 	border: 1px solid #000;
-	margin: 30px;
-	
+	margin: 30px;	
 }
+
+.bold {
+	font-weight: bold;
+}
+
+.sub-heading-section {
+    background-color: #ffb74d;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.sub-heading {
+    padding: 10px 0 0;
+}
+
+.map-box-head {
+    background-color: #eaeaea;
+    border: 1px solid #dadada;
+    color: #434a54;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 0 9px 13px;
+    text-align: center;
+}
+.map figure {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.map figure iframe {
+    border: 0 none;
+    height: 350px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.button_style, .button_style:hover {
+	background-color: #FF3B30;
+	border: 1px solid #FF3B30;
+}
+
+.form-control, input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea, select {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ccc;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 3px;
+    box-shadow: none;
+    height: auto;
+    padding: 15px;
+}
+
 
