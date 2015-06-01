@@ -128,7 +128,7 @@ color : #fff;
 
 .service_image {	
 	padding:10px;
-	border: 1px solid #FF3B30;
+	border: 1px solid #c7c7c7;
 	border-radius : 10px;
 	float:left;
 	margin-right:10px;
@@ -141,7 +141,7 @@ color : #fff;
 }
 
 .service_line {
-	border: 1px solid #000;
+	border: 1px solid #c7c7c7;
 	margin: 30px;	
 }
 
