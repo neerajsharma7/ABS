@@ -27,7 +27,7 @@
 
 
 * {
-font-family: "Open Sans",sans-serif";
+font-family: "Open Sans",sans-serif;
 }
 
 h3 {
@@ -200,4 +200,6 @@ color : #fff;
     padding: 15px;
 }
 
-
+.site_name {
+	color:#FF3B30;
+}
