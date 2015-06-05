@@ -368,11 +368,6 @@ h4 {
 .line_block .box {	
 	width:60px;
 	height: 60px;
-	background: #fff;
-	-moz-border-radius: 30px;
-	-webkit-border-radius: 30px;
-	border-radius: 30px;
-	text-align:center;
 	display:inline-block;
 	margin:-3px;
 }
@@ -385,6 +380,8 @@ h4 {
 .box img {
 	vertical-align:bottom;
 	padding-top:12px;
+	width:50px;
+	height: 50px;
 }
 
 .line_block .text {
