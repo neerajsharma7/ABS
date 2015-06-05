@@ -382,6 +382,11 @@ h4 {
 	padding-top:30px;
 }
 
+.box img {
+	vertical-align:bottom;
+	padding-top:12px;
+}
+
 .line_block .text {
 	color:#797979;
 	padding:5px;
