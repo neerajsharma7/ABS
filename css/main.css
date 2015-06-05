@@ -251,7 +251,9 @@ h4 {
 
 .services_box span {
 	vertical-align:-moz-middle-with-baseline;
-	padding-top:40px;
+	padding-top:15px;
+	display:inline-block;
+	vertical-align:bottom;
 }
 
 .services_name {
