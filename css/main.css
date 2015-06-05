@@ -41,12 +41,12 @@ h4 {
 .set-header {	 
     font-size: 14px;    
     background-color : #202024;
-    min-height: 80px;    
+    min-height: 75px;    
 }
 
 .header-bar {
 	background-color: #202024;
-	min-height: 80px;
+	min-height: 75px;
 }
 .set-nav {
 	margin-top : 12px;
@@ -56,7 +56,12 @@ h4 {
 	border: 0px none;
 	border-bottom : 1px solid #FF3B30;
 }
-
+.navbar-collapse > .navbar-nav a {
+	border: 1px solid transparent;
+	border-spacing : 2px;
+	margin:7px;
+    padding:7px;
+}
 .navbar-collapse > .navbar-nav a:hover,
 .navbar-collapse .navbar-nav >.active a,
 .navbar-collapse .navbar-nav >.active a:hover,
@@ -67,19 +72,29 @@ h4 {
     border-style : solid;
     border-width : 1px;
     background-color : #202024;
-    border-spacing : 2px;
-    margin:7px;
-    padding:7px;
 }
 
 .logo {
 	position : absolute;
 	background-color: #FF3B30;
-	padding: 20px 40px 0px 200px;
-	min-height: 80px;
+	padding: 0px 40px 0px 200px;
+	min-height: 74px;
 	font-size : 25px;
+	float:left;
+	overflow:hidden;
 }
 
+.logo img {
+	width:100px;
+	height:50px;
+	float: left;
+}
+
+.logo_name {
+	font-size:14px;
+	color:#fff;
+	margin-top:-5px;
+}
 .logo a {
 	color : #fff;
 }
@@ -207,4 +222,202 @@ h4 {
 
 .site_name {
 	color:#FF3B30;
+}
+
+.welcome_box {
+	background-color:#EEEEEE;
+	padding:10px;
+}
+
+.welcome_box a {
+	margin-left:70px;
+	background-color:#FF3B30;
+	border:1px solid #FF3B30;
+}
+
+.services_row {
+	padding:30px 0px 20px 20px;
+}
+
+.services_box {
+	width: 70px;
+	height: 70px;
+	background: #797979;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	text-align:center;
+}
+
+.services_box span {
+	vertical-align:-moz-middle-with-baseline;
+	padding-top:40px;
+}
+
+.services_name {
+	color:#FF3B30;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.services_image {
+	height:220px;
+	width:100%;
+}
+
+.services_box_text {
+	padding-top:10px;
+}
+
+.services_add_box {
+	border: 2px solid #D9EDF7;
+	border-radius:10px;
+	padding:5px;
+	margin:10px;
+}
+
+.services_add_box img {
+	width:100%;
+	height:180px;
+	margin-top:10px;
+}
+
+.extra_services {
+	background-color:#EEEEEE;
+	padding:20px;
+}
+
+.extra_services_heading {
+	width:100%;
+	height:180px;
+	border-radius:10px;
+	color:#fff;	
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.4);
+	padding:15px 15px 20px 15px;
+}
+
+.extra_services_heading p {
+	font-size:13px;
+}
+
+.arrow1 {
+	width:0px;
+	height:0px;
+	float:right;
+	margin:-95px -20px 0px 0px;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #797979;
+	border-bottom: 10px solid transparent;
+}
+
+.arrow2 {
+	width:0px;
+	height:0px;
+	float:right;
+	margin:-95px -20px 0px 0px;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #3E3E3E;
+	border-bottom: 10px solid transparent;
+}
+
+.arrow3 {
+	width:0px;
+	height:0px;
+	float:right;
+	margin:-95px -35px 0px 0px;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #FF3B30;
+	border-bottom: 10px solid transparent;
+}
+
+.arrow4 {
+	width:0px;
+	height:0px;
+	float:right;
+	margin:-110px -35px 0px 0px;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #5A5A5A;
+	border-bottom: 10px solid transparent;
+}
+
+.arrow5 {
+	width:0px;
+	height:0px;
+	float:right;
+	margin:-95px -35px 0px 0px;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #4A4A4A;
+	border-bottom: 10px solid transparent;
+}
+
+.extra_heading {
+	padding-left:10px;
+}
+
+.line {
+	border: 1px solid #fff;
+}
+
+.line_block {
+	background-color:#F2DEDE;
+	padding:10px;
+}
+
+.line_block .box {	
+	width:60px;
+	height: 60px;
+	background: #fff;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	text-align:center;
+	display:inline-block;
+	margin:4px;
+}
+
+.box span {
+	vertical-align:-moz-middle-with-baseline;
+	padding-top:30px;
+}
+
+.line_block .text {
+	color:#797979;
+	padding:5px;
+	display:inline-block;
+	vertical-align:bottom;
+	height:50px;
+}
+
+.extra_s {
+	width:100%;
+	height:220px;
+	border-radius:10px;
+	color:#fff;
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.4);
+	padding:5px 15px 20px 15px;
+}
+
+button.navbar-toggle {
+	margin-top:20px;
+}
+
+@media(max-width:767px){
+	.logo {
+		padding: 0px 40px 0px 0px;
+	}
+}
+@media(min-width:768px){
+	.logo {
+		padding: 0px 40px 0px 50px;
+	}
+}
+@media(min-width:992px){
+	.logo {
+		padding: 0px 40px 0px 100px;
+	}
+}
+@media(min-width:1200px){
+	.logo {
+		padding: 0px 40px 0px 200px;
+	}
 }
