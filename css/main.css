@@ -430,6 +430,7 @@ button.navbar-toggle {
 	}
 }
 
+/* Start Social Media Icons */
 @font-face {
     font-family: 'si';
     src: url('social_icon/socicon.eot');
@@ -449,7 +450,6 @@ button.navbar-toggle {
     }
 }
 
-/* Start Social Media Icons */
 .soc {
     overflow:hidden;
     margin:0; padding:0;
