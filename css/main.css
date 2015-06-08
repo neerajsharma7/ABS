@@ -86,7 +86,9 @@ h4 {
     background-color : #202024;
 }
 
-.ddbox .active > a {
+.ddbox .active > a, 
+.ddbox .active > a:focus,
+.ddbox .active > a:hover {
 	color: #CACACA!important;
     border-color: #CACACA;
     border-radius: 5px;
