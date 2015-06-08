@@ -313,7 +313,7 @@ h4 {
 .services_add_box {
 	border: 1px solid #D9EDF7;
 	border-radius:5px;
-	padding:5px;
+	padding-bottom:12px;
 	margin:0px 0px 20px 0px;
 }
 
