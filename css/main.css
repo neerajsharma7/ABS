@@ -279,11 +279,11 @@ h4 {
 }
 
 .services_add_box:hover {
-	border : 1px solid #FF3B2F;
+	border:1px solid #FF3B2F;
 	border-radius:5px;
 }
 
-.services_add_box:hover .read_more{
+.services_add_box:hover .read_more {
 	font-weight:bold;
 	color:#FF3B30;
 }
