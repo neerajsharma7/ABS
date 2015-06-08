@@ -74,6 +74,17 @@ h4 {
     background-color : #202024;
 }
 
+.nav .open > a, 
+.nav .open > a:focus, 
+.nav .open > a:hover {
+	color: #CACACA!important;
+    border-color: #CACACA;
+    border-radius: 5px;
+    border-style : solid;
+    border-width : 1px;
+    background-color : #202024;
+}
+
 .logo {
 	position : absolute;
 	background-color: #FF3B30;
@@ -562,3 +573,34 @@ button.navbar-toggle {
     background-color: #ff751d;
 }
 /* End Social Media Icons */
+
+.dbox {
+	margin-top:15px;
+}
+
+.dbox span {
+	color:#777;
+}
+
+.dbox span:hover,
+.dbox span:focus {
+	color:#CACACA;	
+}
+
+.dbox ul {
+	text-align:left;
+	color:#CACACA;
+	background-color:#202024;
+}
+
+.ddbox {
+	margin:26px -120px 0px 0px;
+}
+
+.ddbox li {
+	margin:-5px;
+}
+
+.ddbox li a {
+	color:#CACACA;
+}
