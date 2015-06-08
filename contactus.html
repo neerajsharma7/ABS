@@ -10,11 +10,12 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>	
-    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
-	<!--<script type="text/javascript" src="js/jquery.validate.min.js"></script>-->
+	<link rel="stylesheet" type="text/css" media="all" href="css/jquery.bs.message.min.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/jquery.bs.message.min.js"></script>
-	<!--<script type="text/javascript" src="js/contactus.js"></script>-->
+	<script type="text/javascript" src="js/contactus.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,7 +49,23 @@
 						<ul class="nav navbar-nav">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="aboutus.html">About Us</a></li>           
-							<li><a href="services.html">Services</a></li>
+							<li>
+								<div class="dropdown dbox">
+									<a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+										<span>Services</span>
+										<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu ddbox" role="menu" aria-labelledby="dLabel">
+										<li><a href="website-services.html">Website Services</a></li>
+										<li><a href="social-media-marketing.html">Social Media Marketing</a></li>
+										<li><a href="search-engine-optimization.html">Search Engine Optimization</a></li>
+										<li><a href="email-marketing.html">E-Mail Marketing</a></li>
+										<li><a href="online-marketing.html">Online Marketing</a></li>
+										<li><a href="pay-per-click.html">Pay Per Click</a></li>
+										<li><a href="ecommerce-solutions.html">E-Commerce Solutions</a></li>
+									</ul>
+								</div>
+							</li>
 							<li><a href="portfolio.html">Portfolio</a></li>
 							<li class="active"><a href="javascript:void(0);">Contact Us</a></li>
 						</ul>
@@ -237,9 +254,5 @@
 			</div>	
 		</div>
 	</footer>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
   </body>
 </html>
