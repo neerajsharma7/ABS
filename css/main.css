@@ -273,6 +273,10 @@ h4 {
 	border-radius:5px;
 }
 
+.service .panel:hover .panel-heading  {
+	font-weight:bold;	
+}
+
 .service .panel:hover .read_more {
 	font-weight:bold;
 	color:#FF3B30;
