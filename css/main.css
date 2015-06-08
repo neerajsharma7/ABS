@@ -437,6 +437,10 @@ button.navbar-toggle {
 	.logo {
 		padding: 0px 40px 0px 0px;
 	}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+		background-color:#202024;
+	}
 }
 @media(min-width:768px){
 	.logo {
@@ -611,7 +615,7 @@ button.navbar-toggle {
 }
 
 .ddbox {
-	margin:26px -120px 0px 0px;
+	margin:26px -106px 0px 0px;
 }
 
 .ddbox li {
