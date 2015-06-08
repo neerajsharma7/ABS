@@ -493,6 +493,9 @@ button.navbar-toggle {
 	color:#CACACA;
 }
 
+.error {
+	color:#FF3B30;	
+}
 
 /* Start Social Media Icons */
 @font-face {
