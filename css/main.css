@@ -267,6 +267,17 @@ h4 {
 	background-color:#FF3B30;
 }
 
+
+.service .panel:hover {
+	border : 1px solid #FF3B2F;
+	border-radius:5px;
+}
+
+.service .panel:hover .read_more {
+	font-weight:bold;
+	color:#FF3B30;
+}
+
 .services_box {
 	width: 70px;
 	height: 70px;
@@ -433,30 +444,41 @@ button.navbar-toggle {
 	margin-top:20px;
 }
 
-@media(max-width:767px){
-	.logo {
-		padding: 0px 40px 0px 0px;
-	}
-	
-	.navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
-		background-color:#202024;
-	}
+.dbox {
+	margin-top:15px;
 }
-@media(min-width:768px){
-	.logo {
-		padding: 0px 40px 0px 50px;
-	}
+
+.dbox a {
+	text-decoration:none;
 }
-@media(min-width:992px){
-	.logo {
-		padding: 0px 40px 0px 100px;
-	}
+
+.dbox span {
+	color:#777;
 }
-@media(min-width:1200px){
-	.logo {
-		padding: 0px 40px 0px 200px;
-	}
+
+.dbox span:hover,
+.dbox span:focus {
+	color:#CACACA;	
 }
+
+.dbox ul {
+	text-align:left;
+	color:#CACACA;
+	background-color:#202024;
+}
+
+.ddbox {
+	margin:26px -106px 0px 0px;
+}
+
+.ddbox li {
+	margin:-5px;
+}
+
+.ddbox li a {
+	color:#CACACA;
+}
+
 
 /* Start Social Media Icons */
 @font-face {
@@ -591,37 +613,29 @@ button.navbar-toggle {
 }
 /* End Social Media Icons */
 
-.dbox {
-	margin-top:15px;
+@media(max-width:767px){
+	.logo {
+		padding: 0px 40px 0px 0px;
+	}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+		background-color:#202024;
+	}
 }
-
-.dbox a {
-	text-decoration:none;
+@media(min-width:768px){
+	.logo {
+		padding: 0px 40px 0px 50px;
+	}
 }
-
-.dbox span {
-	color:#777;
+@media(min-width:992px){
+	.logo {
+		padding: 0px 40px 0px 100px;
+	}
 }
-
-.dbox span:hover,
-.dbox span:focus {
-	color:#CACACA;	
-}
-
-.dbox ul {
-	text-align:left;
-	color:#CACACA;
-	background-color:#202024;
-}
-
-.ddbox {
-	margin:26px -106px 0px 0px;
-}
-
-.ddbox li {
-	margin:-5px;
-}
-
-.ddbox li a {
-	color:#CACACA;
+@media(min-width:1200px){
+	.logo {
+		padding: 0px 40px 0px 200px;
+	}
 }
