@@ -1,7 +1,7 @@
 $(function() {
 	$(document).ready(function(){
 		var $form = $("#contact_us_form"),
-		//fb = new Firebase("https://real-estate-network.firebaseio.com"),
+		fb = new Firebase("https://altus-site.firebaseio.com/"),
 		$msg = $('#msg');
 		$form.validate({
 			rules: {
@@ -28,7 +28,7 @@ $(function() {
 					dataJson[dataArr[d]['name']] = dataArr[d]['value'];
 				}
 				dataJson['t'] = (new Date()).getTime();
-			   //fb.push(dataJson);
+			    fb.push(dataJson);
 				form.reset();
 				$msg.message({
 					type: 'success',
