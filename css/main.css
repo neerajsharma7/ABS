@@ -512,8 +512,9 @@ button.navbar-toggle {
 }
 
 .admin_box {
-	min-height:660px;
+	min-height:650px;
 }
+
 
 table.dtable {
     margin-top: 20px;
@@ -682,13 +683,13 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
   background-position: center right;
 }
 table.dataTable thead .sorting_asc {
-  background-image: url("../img/sort_asc.png");
+  background-image: url("../images/sort_asc.png");
 }
 table.dataTable thead .sorting_desc {
-  background-image: url("../img/sort_desc.png");
+  background-image: url("../images/sort_desc.png");
 }
 table.dataTable thead .sorting {
-  background-image: url("../img/sort_both.png");
+  background-image: url("../images/sort_both.png");
 }
 table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
   cursor: pointer;

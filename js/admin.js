@@ -88,7 +88,7 @@ $(function() {
                             { 
                                 'render': function ( data, type, row ) {
                                     var $btn = $('<button></button>').addClass('action-btn').attr({'data-k': data, 'type': 'button', 'title': 'delete'});
-                                    $('<i></i>').addClass('fa fa-remove').appendTo($btn);
+                                    $('<span></span>').addClass('glyphicon glyphicon-remove').appendTo($btn);
                                     return $btn.getHtml();
                                 },
                                 'targets': 6
