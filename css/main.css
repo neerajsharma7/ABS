@@ -108,16 +108,12 @@ h4 {
 }
 
 .logo img {
-	width:88px;
-	height:50px;
+	width:135px;
+	height:65px;
 	float: left;
+	margin-top:-10px;
 }
 
-.logo_name {
-	font-size:14px;
-	color:#fff;
-	margin-top:-5px;
-}
 .logo a {
 	color : #fff;
 }
